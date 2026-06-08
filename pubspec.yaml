@@ -1,0 +1,30 @@
+name: ocr_extractor
+description: OCR scanner that extracts text, emails, phones, URLs from images with AI smart notes.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  camera: ^0.11.2
+  google_mlkit_text_recognition: ^0.15.0
+  url_launcher: ^6.3.0
+  image_picker: ^1.1.0
+  permission_handler: ^11.3.1
+  path_provider: ^2.1.0
+  share_plus: ^10.0.0
+  http: ^1.2.0
+  android_intent_plus: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
